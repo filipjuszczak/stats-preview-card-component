@@ -1,0 +1,44 @@
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 3.2rem 1.2rem;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .text-box {
+    padding: 3.2rem 3.2rem;
+    border-radius: 0;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+  }
+
+  .card-heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .stats-container {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 3.2rem;
+  }
+
+  .img-box {
+    grid-row: 1;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    overflow: hidden;
+  }
+
+  .img-desktop,
+  .img-mobile {
+    border-radius: 0;
+  }
+}
