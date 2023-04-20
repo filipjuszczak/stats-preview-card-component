@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-:root {
-  font-size: 62.5%;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -15,39 +11,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(233, 47%, 7%);
+  background-color: hsl(233 47% 7%);
 }
 
 .card {
-  max-width: 110rem;
+  max-width: 68.75rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .text-box {
-  padding: 8rem;
+  padding: 5rem;
   border-top-left-radius: 11px;
   border-bottom-left-radius: 11px;
-  background-color: hsl(244, 38%, 16%);
+  background-color: hsl(244 38% 16%);
 }
 
 .card-heading {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
   font-family: 'Inter', sans-serif;
-  font-size: 3.4rem;
-  color: hsl(0, 0%, 100%);
+  font-size: 2.125rem;
+  color: hsl(0 0% 100%);
 }
 
 .card-heading span {
-  color: hsl(277, 64%, 61%);
+  color: hsl(277 64% 61%);
 }
 
 .description {
-  margin-bottom: 6rem;
+  margin-bottom: 3.75rem;
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   line-height: 1.7;
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsl(0 0% 100% / 0.75);
 }
 
 .stats-container {
@@ -57,24 +53,24 @@
   align-items: center;
 }
 
+.stats span {
+  display: block;
+}
+
 .number-span {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   font-family: 'Inter', sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0 0% 100%);
 }
 
 .text-span {
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.8px;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
-.stats span {
-  display: block;
+  color: hsl(0 0% 100% / 0.6);
 }
 
 .img-box {
@@ -100,5 +96,5 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: hsla(271, 76%, 53%, 0.4);
+  background-color: hsl(271 76% 53% / 0.4);
 }

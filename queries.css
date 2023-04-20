@@ -1,6 +1,7 @@
-@media (max-width: 375px) {
+/* 375px */
+@media (max-width: 23.4375em) {
   .wrapper {
-    padding: 3.2rem 1.2rem;
+    padding: 2rem 0.75rem;
   }
 
   .card {
@@ -8,14 +9,14 @@
   }
 
   .text-box {
-    padding: 3.2rem 3.2rem;
+    padding: 2rem;
     border-radius: 0;
     border-bottom-left-radius: 11px;
     border-bottom-right-radius: 11px;
   }
 
   .card-heading {
-    font-size: 3rem;
+    font-size: 1.875rem;
     text-align: center;
   }
 
@@ -27,7 +28,7 @@
     width: 100%;
     flex-direction: column;
     text-align: center;
-    gap: 3.2rem;
+    gap: 2rem;
   }
 
   .img-box {
